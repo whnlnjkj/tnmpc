@@ -104,12 +104,3 @@ sp=[r1;r2];
 [u1,y1,deltau1,k]=simuuc(xm,u,y,sp,Ap,Bp,Cp,N_sim,Omega,Psi,Lzerot);
 y1=y1';
 u1=u1';
-% figure
-% subplot(211)
-% plot(k,y1)
-% xlabel('t')
-% legend('y')
-% subplot(212)
-% plot(k,u1)
-% xlabel('t')
-% legend('u')
